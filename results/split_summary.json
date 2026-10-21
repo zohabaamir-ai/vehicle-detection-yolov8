@@ -1,0 +1,98 @@
+{
+  "split_seed": 29,
+  "n_seed_candidates": 50,
+  "imbalance_chosen": 0.0558,
+  "imbalance_seed_0": 0.0812,
+  "imbalance_median_candidate": 0.0828,
+  "dedup_threshold": 12,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "class_names": [
+    "car",
+    "motorcycle",
+    "truck"
+  ],
+  "n_images": 927,
+  "n_groups": 603,
+  "polygon_lines_converted_to_boxes": 164,
+  "label_files_that_mixed_polygons_and_boxes": 1,
+  "label_lines_skipped_as_invalid": 0,
+  "boxes_dropped_after_clipping": 0,
+  "splits": {
+    "train": {
+      "n_images": 666,
+      "n_groups": 489,
+      "n_boxes": 3167,
+      "boxes_per_class": {
+        "car": 1718,
+        "motorcycle": 882,
+        "truck": 567
+      },
+      "images_per_class": {
+        "car": 316,
+        "motorcycle": 312,
+        "truck": 431
+      }
+    },
+    "val": {
+      "n_images": 135,
+      "n_groups": 51,
+      "n_boxes": 680,
+      "boxes_per_class": {
+        "car": 346,
+        "motorcycle": 210,
+        "truck": 124
+      },
+      "images_per_class": {
+        "car": 61,
+        "motorcycle": 56,
+        "truck": 118
+      }
+    },
+    "test": {
+      "n_images": 126,
+      "n_groups": 63,
+      "n_boxes": 881,
+      "boxes_per_class": {
+        "car": 535,
+        "motorcycle": 238,
+        "truck": 108
+      },
+      "images_per_class": {
+        "car": 56,
+        "motorcycle": 54,
+        "truck": 94
+      }
+    }
+  },
+  "isolated_images": {
+    "definition": "nearest train image is more than 16 hash bits away",
+    "val": 75,
+    "test": 58
+  },
+  "residual_cross_split_neighbours": {
+    "12": {
+      "val_images_near_train": 0,
+      "test_images_near_train": 0,
+      "test_images_near_val": 0
+    },
+    "14": {
+      "val_images_near_train": 16,
+      "test_images_near_train": 20,
+      "test_images_near_val": 11
+    },
+    "16": {
+      "val_images_near_train": 60,
+      "test_images_near_train": 68,
+      "test_images_near_val": 31
+    },
+    "20": {
+      "val_images_near_train": 135,
+      "test_images_near_train": 125,
+      "test_images_near_val": 92
+    }
+  }
+}

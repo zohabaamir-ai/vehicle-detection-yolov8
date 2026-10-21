@@ -1,0 +1,415 @@
+{
+ "conf_threshold": 0.29,
+ "n_images": 135,
+ "n_objects": 680,
+ "totals": {
+  "correct": 482,
+  "miss": 189,
+  "false_alarm": 135,
+  "wrong_class": 9
+ },
+ "detection_rate_by_object_size": {
+  "tiny": {
+   "n_objects": 150,
+   "detected_correctly": 0.373,
+   "wrong_class": 0,
+   "missed": 94
+  },
+  "small": {
+   "n_objects": 255,
+   "detected_correctly": 0.714,
+   "wrong_class": 3,
+   "missed": 70
+  },
+  "medium": {
+   "n_objects": 180,
+   "detected_correctly": 0.867,
+   "wrong_class": 6,
+   "missed": 18
+  },
+  "large": {
+   "n_objects": 95,
+   "detected_correctly": 0.926,
+   "wrong_class": 0,
+   "missed": 7
+  }
+ },
+ "per_class": {
+  "car": {
+   "correct": 255,
+   "miss": 88,
+   "false_alarm": 72,
+   "wrong_class": 3
+  },
+  "motorcycle": {
+   "correct": 125,
+   "miss": 85,
+   "false_alarm": 44
+  },
+  "truck": {
+   "miss": 16,
+   "false_alarm": 19,
+   "correct": 102,
+   "wrong_class": 6
+  }
+ },
+ "class_confusions": {
+  "truck -> car": 6,
+  "car -> truck": 3
+ },
+ "worst_images": [
+  {
+   "image": "Screenshot_2_png.rf.780d03fdae2f41f8cd652994f45e029c.jpg",
+   "errors": 18,
+   "objects": 32
+  },
+  {
+   "image": "scene28711_png_jpg.rf.5a9a4869c4e1adefef49c3f1419d0adf.jpg",
+   "errors": 11,
+   "objects": 22
+  },
+  {
+   "image": "youtube-16_jpg.rf.385d362e6f78d635e4ced39bd16f8004.jpg",
+   "errors": 10,
+   "objects": 13
+  },
+  {
+   "image": "154_jpg.rf.ccee894f5ad8acf42a266482fcbd8682.jpg",
+   "errors": 9,
+   "objects": 8
+  },
+  {
+   "image": "fr_0025_jpg.rf.65a44b972640127bec3ad0287aa9dde3.jpg",
+   "errors": 9,
+   "objects": 8
+  },
+  {
+   "image": "youtube-432_jpg.rf.aaf3690485f660d9ee658921700207dc.jpg",
+   "errors": 9,
+   "objects": 15
+  },
+  {
+   "image": "youtube-592_jpg.rf.98a0b5a346fb8183f05965566f70bffa.jpg",
+   "errors": 9,
+   "objects": 16
+  },
+  {
+   "image": "ffssssgsamess_0042_jpg.rf.97e869d74ca486baffec0bf2a4ff0f6b.jpg",
+   "errors": 8,
+   "objects": 10
+  },
+  {
+   "image": "youtube-190_jpg.rf.a697f4c8ab40ef3efc6363402503a88a.jpg",
+   "errors": 8,
+   "objects": 14
+  },
+  {
+   "image": "youtube-256_jpg.rf.9a938673ee743012a2aadac2099436f5.jpg",
+   "errors": 8,
+   "objects": 11
+  },
+  {
+   "image": "youtube-453_jpg.rf.c73781eeabe2e309678382c7f06fa07e.jpg",
+   "errors": 8,
+   "objects": 11
+  },
+  {
+   "image": "youtube-783_jpg.rf.f8f85ed6a9ca42285721a0ab0dced042.jpg",
+   "errors": 8,
+   "objects": 11
+  },
+  {
+   "image": "ffssssgsamess_0043_jpg.rf.b2593b80fd5c98322090ca7fad2e489f.jpg",
+   "errors": 7,
+   "objects": 9
+  },
+  {
+   "image": "scene02431_png_jpg.rf.494081948b8aa8bac575c2039783aa1a.jpg",
+   "errors": 7,
+   "objects": 24
+  },
+  {
+   "image": "youtube-192_jpg.rf.196140de24ef357e24ecd5a5d0d019ed.jpg",
+   "errors": 7,
+   "objects": 13
+  },
+  {
+   "image": "youtube-226_jpg.rf.706b69830892040b1b3d9cc84108439f.jpg",
+   "errors": 7,
+   "objects": 13
+  },
+  {
+   "image": "youtube-538_jpg.rf.66a6e8011e628c5077a910dcce635e65.jpg",
+   "errors": 7,
+   "objects": 15
+  },
+  {
+   "image": "youtube-54_jpg.rf.cd90361cf85ffa6530783b3524607320.jpg",
+   "errors": 7,
+   "objects": 12
+  },
+  {
+   "image": "youtube-564_jpg.rf.3ae3d0ae67df07c06a7a74e0a2039dd5.jpg",
+   "errors": 7,
+   "objects": 12
+  },
+  {
+   "image": "youtube-66_jpg.rf.90703cfa8260b79ab2a54827ba953cde.jpg",
+   "errors": 7,
+   "objects": 10
+  },
+  {
+   "image": "youtube-74_jpg.rf.0b036f7c4132370fd713276150a8de1b.jpg",
+   "errors": 7,
+   "objects": 14
+  },
+  {
+   "image": "MP_SEL_B027657_jpg.rf.a65194f352cc80cd2f6741120d2b3208.jpg",
+   "errors": 6,
+   "objects": 1
+  },
+  {
+   "image": "ffssssgsamess_0026_jpg.rf.bab0f1d348ab0efbba9739c9a01d3eb4.jpg",
+   "errors": 6,
+   "objects": 7
+  },
+  {
+   "image": "fr_0024_jpg.rf.c27552de1419fa609e961f3cb497ea8f.jpg",
+   "errors": 6,
+   "objects": 7
+  },
+  {
+   "image": "youtube-558_jpg.rf.99252a9f2076bff8b352cf613be01007.jpg",
+   "errors": 6,
+   "objects": 14
+  },
+  {
+   "image": "youtube-559_jpg.rf.2edf0045a348732fe0d733d783fb56b7.jpg",
+   "errors": 6,
+   "objects": 14
+  },
+  {
+   "image": "youtube-56_jpg.rf.756d69432c08c093cff8ec2f9b87a97b.jpg",
+   "errors": 6,
+   "objects": 11
+  },
+  {
+   "image": "youtube-873_jpg.rf.60e9c828974d98719e7a806e52667fbf.jpg",
+   "errors": 6,
+   "objects": 10
+  },
+  {
+   "image": "153_jpg.rf.9e52c5d153440798db29e2ffb847c25d.jpg",
+   "errors": 5,
+   "objects": 5
+  },
+  {
+   "image": "MP_SEL_B027481_jpg.rf.d41cdfe822b3ac73929690471ef32c77.jpg",
+   "errors": 5,
+   "objects": 3
+  },
+  {
+   "image": "ffssssgsamess_0019_jpg.rf.2014cd9a3300327a4778947fbba85d38.jpg",
+   "errors": 5,
+   "objects": 5
+  },
+  {
+   "image": "scene02701_png_jpg.rf.31b9faeee02fb4b486f91b570d74f82e.jpg",
+   "errors": 5,
+   "objects": 20
+  },
+  {
+   "image": "youtube-14_jpg.rf.5c9bfadb3ca22e980045ce86700db428.jpg",
+   "errors": 5,
+   "objects": 13
+  },
+  {
+   "image": "youtube-565_jpg.rf.9df5381a50a0e881bf4fd14406ff2d56.jpg",
+   "errors": 5,
+   "objects": 12
+  },
+  {
+   "image": "youtube-851_jpg.rf.bc821d3174e97f2b5b8a1cd0d2abdaea.jpg",
+   "errors": 5,
+   "objects": 10
+  },
+  {
+   "image": "youtube-872_jpg.rf.9e1953ff5a1e3627847dbf15f03b4fe1.jpg",
+   "errors": 5,
+   "objects": 11
+  },
+  {
+   "image": "youtube-277_jpg.rf.82613d8f3097faaf6676b658ac908b1b.jpg",
+   "errors": 4,
+   "objects": 14
+  },
+  {
+   "image": "youtube-481_jpg.rf.8e34d6c2258a743c2e48acedde8ff3ef.jpg",
+   "errors": 4,
+   "objects": 13
+  },
+  {
+   "image": "youtube-75_jpg.rf.19c33aca4d0745933250a92161f239d3.jpg",
+   "errors": 4,
+   "objects": 8
+  },
+  {
+   "image": "youtube-767_jpg.rf.f8c4ffbbef50cef74655a5eeff7e5da8.jpg",
+   "errors": 4,
+   "objects": 16
+  },
+  {
+   "image": "MP_SEL_B027495_jpg.rf.e9ce9db3867c19d761300a2f82ca6ff0.jpg",
+   "errors": 3,
+   "objects": 2
+  },
+  {
+   "image": "MP_SEL_B027531_jpg.rf.333d097a9ea33a25c4f5fcd74d8be145.jpg",
+   "errors": 3,
+   "objects": 3
+  },
+  {
+   "image": "MP_SEL_B027677_jpg.rf.01da0e7233d40a4520afbf54cdf37f4f.jpg",
+   "errors": 3,
+   "objects": 2
+  },
+  {
+   "image": "fr_0022_jpg.rf.142ba8c962ca76268ef9a8dba2186716.jpg",
+   "errors": 3,
+   "objects": 6
+  },
+  {
+   "image": "fr_0023_jpg.rf.d25b1c5fbe57b055669974e5ecd3a3d2.jpg",
+   "errors": 3,
+   "objects": 8
+  },
+  {
+   "image": "youtube-183_jpg.rf.af84fee0e0f3e33b808e351963c29d09.jpg",
+   "errors": 3,
+   "objects": 12
+  },
+  {
+   "image": "youtube-259_jpg.rf.614c6578eead9cfb662e22e8aaa17bf2.jpg",
+   "errors": 3,
+   "objects": 11
+  },
+  {
+   "image": "youtube-574_jpg.rf.d29636a537b9da590c8f630cc37cc019.jpg",
+   "errors": 3,
+   "objects": 9
+  },
+  {
+   "image": "youtube-67_jpg.rf.346e7b402e2eef2ea35ba0daea7cfbef.jpg",
+   "errors": 3,
+   "objects": 8
+  },
+  {
+   "image": "youtube-72_jpg.rf.9ab69684a4ddae3626e51c9d63d30005.jpg",
+   "errors": 3,
+   "objects": 10
+  },
+  {
+   "image": "IMG_0380-2677_jpg.rf.42d32db0f9ddae68d768580d64e51daa.jpg",
+   "errors": 2,
+   "objects": 2
+  },
+  {
+   "image": "Image_013315_jpg.rf.b5e94772de36e833613562a2ddfce66a.jpg",
+   "errors": 2,
+   "objects": 2
+  },
+  {
+   "image": "Image_013543_jpg.rf.67590fba0f76f949654f5dfd6ed333c4.jpg",
+   "errors": 2,
+   "objects": 3
+  },
+  {
+   "image": "MP_SEL_B027530_jpg.rf.3b7f72357cbcaf74d5c2d32c3c4c2ba1.jpg",
+   "errors": 2,
+   "objects": 5
+  },
+  {
+   "image": "MP_SEL_B027694_jpg.rf.bd83810fb6eb2e24a7d0359821ca4784.jpg",
+   "errors": 2,
+   "objects": 6
+  },
+  {
+   "image": "Screen-Shot-2022-04-14-at-12-59-02-AM_png_jpg.rf.989894d9fb80504f35a6781b9f065800.jpg",
+   "errors": 2,
+   "objects": 2
+  },
+  {
+   "image": "ffssssgsamess_0022_jpg.rf.8472507a08eb6d73463e7e61fe67670b.jpg",
+   "errors": 2,
+   "objects": 1
+  },
+  {
+   "image": "youtube-572_jpg.rf.6b5429fed6109699ee259df10f05c9cf.jpg",
+   "errors": 2,
+   "objects": 6
+  },
+  {
+   "image": "youtube-798_jpg.rf.4275c1553e6d883be2b08a097d26799d.jpg",
+   "errors": 2,
+   "objects": 13
+  },
+  {
+   "image": "1682252179534_jpg.rf.82745cc0997d8c91d26807946f7c8756.jpg",
+   "errors": 1,
+   "objects": 3
+  },
+  {
+   "image": "2010-mitsubishi-fuso-26-ft-box-truck_jpg.rf.5c1d705d814213829cee0a8d11906710.jpg",
+   "errors": 1,
+   "objects": 1
+  },
+  {
+   "image": "Image_013292_jpg.rf.27a4877c88a072af36af5815ab3bead2.jpg",
+   "errors": 1,
+   "objects": 2
+  },
+  {
+   "image": "Image_013353_jpg.rf.437185f9a8cc6334fa3ee68584b6343b.jpg",
+   "errors": 1,
+   "objects": 1
+  },
+  {
+   "image": "Image_013506_jpg.rf.7f8cb09d6bb67bcd086218a0e9581789.jpg",
+   "errors": 1,
+   "objects": 1
+  },
+  {
+   "image": "Image_013516_jpg.rf.09e5087b4084ff65db2854983cf3af01.jpg",
+   "errors": 1,
+   "objects": 1
+  },
+  {
+   "image": "Image_013516_jpg.rf.1d6b4992abcae59c21d6fa89a4d32722.jpg",
+   "errors": 1,
+   "objects": 1
+  },
+  {
+   "image": "MP_SEL_B027644_jpg.rf.6c79791b339c9b589210a00cc570551d.jpg",
+   "errors": 1,
+   "objects": 1
+  },
+  {
+   "image": "xe-tai-mitsubishi-fuso-canter-12-8-4_jpg.rf.60556c2e361d7dd0f8541cbc1c6d910a.jpg",
+   "errors": 1,
+   "objects": 1
+  }
+ ],
+ "sheets": [
+  "errors_sheet_1.jpg",
+  "errors_sheet_2.jpg",
+  "errors_sheet_3.jpg",
+  "errors_sheet_4.jpg"
+ ],
+ "legend": {
+  "gt": "RGB(0, 200, 0)",
+  "correct": "RGB(30, 110, 255)",
+  "wrong_class": "RGB(255, 140, 0)",
+  "miss": "RGB(255, 230, 0)",
+  "false_alarm": "RGB(230, 20, 20)"
+ }
+}

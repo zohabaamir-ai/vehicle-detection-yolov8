@@ -1,0 +1,48 @@
+{
+  "by_threshold": {
+    "0": {
+      "largest_group": 3,
+      "n_groups": 845,
+      "n_groups_spanning_original_splits": 6,
+      "test_images_with_a_train_near_duplicate": 6
+    },
+    "10": {
+      "largest_group": 33,
+      "n_groups": 652,
+      "n_groups_spanning_original_splits": 21,
+      "test_images_with_a_train_near_duplicate": 36
+    },
+    "12": {
+      "largest_group": 42,
+      "n_groups": 603,
+      "n_groups_spanning_original_splits": 27,
+      "test_images_with_a_train_near_duplicate": 45
+    },
+    "2": {
+      "largest_group": 4,
+      "n_groups": 833,
+      "n_groups_spanning_original_splits": 7,
+      "test_images_with_a_train_near_duplicate": 7
+    },
+    "4": {
+      "largest_group": 10,
+      "n_groups": 808,
+      "n_groups_spanning_original_splits": 10,
+      "test_images_with_a_train_near_duplicate": 10
+    },
+    "6": {
+      "largest_group": 13,
+      "n_groups": 765,
+      "n_groups_spanning_original_splits": 17,
+      "test_images_with_a_train_near_duplicate": 18
+    },
+    "8": {
+      "largest_group": 19,
+      "n_groups": 715,
+      "n_groups_spanning_original_splits": 20,
+      "test_images_with_a_train_near_duplicate": 27
+    }
+  },
+  "hash": "dhash 8x8 + mirror",
+  "n_images": 927
+}
