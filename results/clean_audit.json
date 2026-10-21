@@ -1,0 +1,139 @@
+{
+  "dataset_folder_name": "clean",
+  "overlap": {
+    "test__train": {
+      "examples": [],
+      "n_shared_source_names": 0
+    },
+    "test__val": {
+      "examples": [],
+      "n_shared_source_names": 0
+    },
+    "train__val": {
+      "examples": [],
+      "n_shared_source_names": 0
+    }
+  },
+  "splits": {
+    "test": {
+      "boxes_per_class": {
+        "0": 535,
+        "1": 238,
+        "2": 108
+      },
+      "boxes_per_image_max": 54,
+      "boxes_per_image_mean": 6.99,
+      "images_per_class": {
+        "0": 56,
+        "1": 54,
+        "2": 94
+      },
+      "images_without_label": [],
+      "n_boxes": 881,
+      "n_empty_label_files": 0,
+      "n_images": 126,
+      "n_images_without_label": 0,
+      "n_label_files": 126,
+      "n_label_files_mixed_polygon_and_box": 0,
+      "n_label_files_with_polygons": 0,
+      "n_label_files_with_problems": 0,
+      "n_labels_without_image": 0,
+      "n_plain_box_lines_in_mixed_files": 0,
+      "n_polygon_lines": 0,
+      "n_source_names_with_copies": 12,
+      "n_tiny_boxes": 415,
+      "n_unique_source_names": 110,
+      "n_unreadable_images": 0,
+      "tiny_box_fraction": 0.4711,
+      "top_image_sizes": [
+        {
+          "count": 126,
+          "size": [
+            640,
+            640
+          ]
+        }
+      ]
+    },
+    "train": {
+      "boxes_per_class": {
+        "0": 1718,
+        "1": 882,
+        "2": 567
+      },
+      "boxes_per_image_max": 58,
+      "boxes_per_image_mean": 4.76,
+      "images_per_class": {
+        "0": 316,
+        "1": 312,
+        "2": 431
+      },
+      "images_without_label": [],
+      "n_boxes": 3167,
+      "n_empty_label_files": 0,
+      "n_images": 666,
+      "n_images_without_label": 0,
+      "n_label_files": 666,
+      "n_label_files_mixed_polygon_and_box": 0,
+      "n_label_files_with_polygons": 0,
+      "n_label_files_with_problems": 0,
+      "n_labels_without_image": 0,
+      "n_plain_box_lines_in_mixed_files": 0,
+      "n_polygon_lines": 0,
+      "n_source_names_with_copies": 38,
+      "n_tiny_boxes": 762,
+      "n_unique_source_names": 619,
+      "n_unreadable_images": 0,
+      "tiny_box_fraction": 0.2406,
+      "top_image_sizes": [
+        {
+          "count": 666,
+          "size": [
+            640,
+            640
+          ]
+        }
+      ]
+    },
+    "val": {
+      "boxes_per_class": {
+        "0": 346,
+        "1": 210,
+        "2": 124
+      },
+      "boxes_per_image_max": 32,
+      "boxes_per_image_mean": 5.04,
+      "images_per_class": {
+        "0": 61,
+        "1": 56,
+        "2": 118
+      },
+      "images_without_label": [],
+      "n_boxes": 680,
+      "n_empty_label_files": 0,
+      "n_images": 135,
+      "n_images_without_label": 0,
+      "n_label_files": 135,
+      "n_label_files_mixed_polygon_and_box": 0,
+      "n_label_files_with_polygons": 0,
+      "n_label_files_with_problems": 0,
+      "n_labels_without_image": 0,
+      "n_plain_box_lines_in_mixed_files": 0,
+      "n_polygon_lines": 0,
+      "n_source_names_with_copies": 15,
+      "n_tiny_boxes": 150,
+      "n_unique_source_names": 117,
+      "n_unreadable_images": 0,
+      "tiny_box_fraction": 0.2206,
+      "top_image_sizes": [
+        {
+          "count": 135,
+          "size": [
+            640,
+            640
+          ]
+        }
+      ]
+    }
+  }
+}
