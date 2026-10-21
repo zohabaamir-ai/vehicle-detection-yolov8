@@ -1,0 +1,98 @@
+{
+  "dataset_folder_name": "ObjectsDataset",
+  "overlap": {
+    "test__train": {
+      "examples": [
+        "Image_013391_jpg",
+        "Image_013415_jpg",
+        "Image_013456_jpg",
+        "Image_013493_jpg",
+        "Image_013508_jpg",
+        "Image_013524_jpg"
+      ],
+      "n_shared_source_names": 6
+    }
+  },
+  "splits": {
+    "test": {
+      "boxes_per_class": {
+        "0": 313,
+        "1": 168,
+        "2": 116
+      },
+      "boxes_per_image_max": 43,
+      "boxes_per_image_mean": 6.09,
+      "images_per_class": {
+        "0": 43,
+        "1": 36,
+        "2": 91
+      },
+      "images_without_label": [],
+      "n_boxes": 597,
+      "n_empty_label_files": 0,
+      "n_images": 98,
+      "n_images_without_label": 0,
+      "n_label_files": 98,
+      "n_label_files_mixed_polygon_and_box": 0,
+      "n_label_files_with_polygons": 1,
+      "n_label_files_with_problems": 0,
+      "n_labels_without_image": 0,
+      "n_plain_box_lines_in_mixed_files": 0,
+      "n_polygon_lines": 1,
+      "n_source_names_with_copies": 0,
+      "n_tiny_boxes": 161,
+      "n_unique_source_names": 98,
+      "n_unreadable_images": 0,
+      "tiny_box_fraction": 0.2697,
+      "top_image_sizes": [
+        {
+          "count": 98,
+          "size": [
+            640,
+            640
+          ]
+        }
+      ]
+    },
+    "train": {
+      "boxes_per_class": {
+        "0": 2286,
+        "1": 1162,
+        "2": 683
+      },
+      "boxes_per_image_max": 58,
+      "boxes_per_image_mean": 4.98,
+      "images_per_class": {
+        "0": 390,
+        "1": 386,
+        "2": 552
+      },
+      "images_without_label": [],
+      "n_boxes": 4131,
+      "n_empty_label_files": 0,
+      "n_images": 829,
+      "n_images_without_label": 0,
+      "n_label_files": 829,
+      "n_label_files_mixed_polygon_and_box": 1,
+      "n_label_files_with_polygons": 82,
+      "n_label_files_with_problems": 0,
+      "n_labels_without_image": 0,
+      "n_plain_box_lines_in_mixed_files": 3,
+      "n_polygon_lines": 163,
+      "n_source_names_with_copies": 61,
+      "n_tiny_boxes": 1166,
+      "n_unique_source_names": 754,
+      "n_unreadable_images": 0,
+      "tiny_box_fraction": 0.2823,
+      "top_image_sizes": [
+        {
+          "count": 829,
+          "size": [
+            640,
+            640
+          ]
+        }
+      ]
+    }
+  }
+}
