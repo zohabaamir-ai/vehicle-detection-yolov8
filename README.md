@@ -21,7 +21,7 @@ from the files in [`results/`](results/), not typed by hand.
 <!-- DEMO:START -->
 ![Screenshot of the demo app](docs/images/demo.png)
 
-Sample images you can try: `samples/road_1.jpg`.
+Sample images you can try: `samples/road_1.jpg`. Sources and licences: `samples/ATTRIBUTION.md`.
 <!-- DEMO:END -->
 
 Upload an image, move the confidence slider, and see the boxes, labels and a count per class.
