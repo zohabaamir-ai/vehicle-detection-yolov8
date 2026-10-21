@@ -1,0 +1,43 @@
+{
+  "n_epochs": 100,
+  "best_epoch": 53,
+  "best": {
+    "precision": 0.78563,
+    "recall": 0.73378,
+    "map50": 0.79627,
+    "map50_95": 0.47627
+  },
+  "final_epoch": 100,
+  "final": {
+    "precision": 0.77477,
+    "recall": 0.74186,
+    "map50": 0.77596,
+    "map50_95": 0.46138
+  },
+  "last_window": {
+    "epochs": 10,
+    "mean": {
+      "precision": 0.78009,
+      "recall": 0.73392,
+      "map50": 0.7777,
+      "map50_95": 0.46062
+    },
+    "map50_min": 0.77168,
+    "map50_max": 0.78231,
+    "map50_95_min": 0.45127,
+    "map50_95_max": 0.46494
+  },
+  "map50_95_gain_last_window_vs_previous": -0.00108,
+  "run": {
+    "name": "v8n_seed0",
+    "model": "yolov8n.pt",
+    "seed": 0,
+    "imgsz": 672,
+    "epochs": 100,
+    "batch": 16,
+    "ultralytics": "8.4.174",
+    "torch": "2.11.0+cu130",
+    "python": "3.13.15",
+    "gpu": "Tesla T4"
+  }
+}
