@@ -173,3 +173,11 @@ def test_every_local_link_and_image_in_the_readme_exists():
     local = [x.split("#")[0] for x in links if not x.startswith(("http", "#", "mailto"))]
     missing = [x for x in local if x and not (ROOT / x).exists()]
     assert not missing, f"README links to files that do not exist: {missing}"
+
+
+def test_attribution_is_mentioned_only_if_the_file_exists(tmp_path):
+    (tmp_path / "samples").mkdir()
+    (tmp_path / "samples" / "road.jpg").write_bytes(b"jpg")
+    assert "ATTRIBUTION" not in report.demo_block(tmp_path)
+    (tmp_path / "samples" / "ATTRIBUTION.md").write_text("x")
+    assert "samples/ATTRIBUTION.md" in report.demo_block(tmp_path)

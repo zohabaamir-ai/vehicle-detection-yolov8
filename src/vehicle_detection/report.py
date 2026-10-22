@@ -323,9 +323,10 @@ def demo_block(root: Path) -> str:
     )
     if names:
         listed = ", ".join(f"`samples/{n}`" for n in names)
-        lines.append(
-            f"Sample images you can try: {listed}. Sources and licences: `samples/ATTRIBUTION.md`."
-        )
+        line = f"Sample images you can try: {listed}."
+        if (samples_dir / "ATTRIBUTION.md").exists():
+            line += " Sources and licences: `samples/ATTRIBUTION.md`."
+        lines.append(line)
     return "\n\n".join(lines)
 
 
